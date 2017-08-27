@@ -62,9 +62,7 @@ function createTemplate(data){
     <!DOCTYPE html>
     <html>
         <head>
-            <Location /favicon.ico>
-                ErrorDocument 404 "No favicon"
-            </Location>
+            
             <title>
                 ${title}
             </title>
