@@ -7,5 +7,5 @@ element.innerHTML = 'New value';
 //Move the weirdo logo!!!
 var img = document.getElementById('madi');
 img.onclick = function () {
-    img.style.marginLeft='100 px';
+    img.style.marginLeft='100px';
 };
