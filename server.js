@@ -58,9 +58,13 @@ function createTemplate(data){
     var content = data.content;
     
     var htmlTemplate = `
+    
     <!DOCTYPE html>
     <html>
         <head>
+            <Location /favicon.ico>
+                ErrorDocument 404 "No favicon"
+            </Location>
             <title>
                 ${title}
             </title>
