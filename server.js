@@ -96,7 +96,11 @@ function createTemplate(data){
 }
 
 
+app.get('/favicon.ico', function (req, res) {
 
+  res.sendFile(path.join(__dirname, 'ui', 'favicon.ico'));
+
+});
 
 
 app.get('/', function (req, res) {
