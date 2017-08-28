@@ -1,9 +1,5 @@
 console.log('Loaded!');
 
-//Change the text of main-text div
-var element = document.getElementById('main-text');
-element.innerHTML = '';
-
 //Move the weirdo logo!!!
 var img = document.getElementById('madi');
 var marginLeft= 0;
